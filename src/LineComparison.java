@@ -6,6 +6,7 @@ public class LineComparison {
         Line line2 = new Line(3,-2,8,3);
 
         boolean equals = line1.equals(line2);
-        boolean length = line1.length() == line2.length();
+        int result = Double.compare(line1.length(),line2.length());
     }
 }
+
